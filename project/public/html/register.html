@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/2aec2f1e55c09dde0f7d04c189b569af?family=Core+Sans+AR+55+Medium" rel="stylesheet">
+    <script src="/static/javascript/register.js" defer></script>
+</head> 
+<body>
+    <div class="top-body"></div>
+    <div class="button-body">
+        <div class="main">
+            <div class="logo">
+                <img src="/static/assets/logo.jpeg" alt="logo">
+            </div>
+            <div class="catch-phrase">
+                <p class="my-font">One account<br>Many possibilities</p>
+            </div>
+            <div class="form-container">          
+                <form class="sign-in-form" id="register-form" onsubmit="submitForm(event)">
+                    <div class="input-container">
+                        <input type="text" id="username" name="username" placeholder="Username" class="text-input" required>
+                        <div id = "userError"></div>
+                    </div>
+                    <div class="input-container space">
+                        <input type="password" id="password" name="password" placeholder="Password" class="text-input" required>
+                        <div id = "passError"></div>
+                    </div>
+                    <div class="input-container space">
+                        <input type="password" id="repassword" name="repassword" placeholder="Re-Enter Password" class="text-input" required>
+                        <div id = "repassError"></div>
+                    </div>
+                    <div class="input-container space">
+                        <button class="button-submit" type="submit"><label class="my-font">Submit</label></button>
+                    </div>
+                </form>
+            </div>  
+            <div class="sign-up">
+                <label class="my-font">Already a member?</label>
+                <label class="my-font"><a href="/login">Sign in</a></label>
+            </div>
+            <div class="blank-space"></div>
+        </div>
+    </div>
+</body>
+</html>

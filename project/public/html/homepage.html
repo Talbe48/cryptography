@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="/static/css/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/2aec2f1e55c09dde0f7d04c189b569af?family=Core+Sans+AR+55+Medium" rel="stylesheet">
+    <script src="/static/javascript/homepage.js" defer></script>
+</head> 
+<body>
+    <div class="top-body">
+        <!-- <a href="index.html"></a><div class="navbox"><label class="navtext">Home</label></div></a>
+        <a href="index.html"></a><div class="navbox"><label class="navtext">Packages</label></div></a>
+        <a href="index.html"></a><div class="navbox"><label class="navtext">About</label></div></a> -->
+    </div>
+
+    <div class="bottom-body">
+        <div class="main">
+            <div class="main-body">
+                <div class="top-main">
+                    <div class="input-cont">
+                        <label for="usb-dic">disk on key location:</label>
+                        <input type="file" id="filepath" class="usb-input">
+                    </div>
+                    <div class="button-cont">
+                        <button class="button-submit" id='encrypt' onclick="EncryptPress()"><label>Encrypt</label></button>
+                    </div>
+                    <div class="button-cont">
+                        <button class="button-submit" id='decrypt' onclick="DecryptPress()"><label>Decrypt</label></button>
+                    </div>  
+                    <div class="button-cont">
+                        <button class="button-submit" id='backup' onclick="BackUpPress()"><label>Update/Backup</label></button>
+                    </div>
+                </div>
+                <div class="mid-main">
+                    <div class="image-cont">
+                        <img src="/static/assets/open-usb.png" class="bigimage">
+                    </div>
+                    <div class="text-cont">
+                        <div>
+                            <p class="my-font">Encrypt your data</p>
+                        </div>
+                        <div>
+                            <p class="my-font">on the Cloud</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-main">
+                    <div class="delinput-cont" id="deldiv">
+                        <input hidden type="text" id="confirmation" class="delinput">
+                    </div>
+                    <div class="button-cont">
+                        <button class="del_button" id='delete' onclick="DeleteBackup()"><label>Delete Backup</label></button>
+                    </div>  
+                    <div class="button-cont">
+                        <button class="button-submit" id='backup' onclick="GetBackup()"><label>Get Backup</label></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
