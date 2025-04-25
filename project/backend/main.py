@@ -18,18 +18,9 @@ from firebase_admin import credentials, initialize_app, storage
 import os
 import secrets
 
-firebase_key = {
-  "type": "service_account",
-  "project_id": "myproject-talbeeri",
-  "private_key_id": "7fb22e7f66da84b8352525f83d979ee4ca72fc6f",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCc6NVdTkewUHz8\n+zfF9nXR0BJE/uv/h5Kft9JVgVllEVgAYCHxEwPC4Z/tVGVQsZkR5P6CVV7r+Gw8\n9AUQfmuUILB/pPP9y5rtXijeW4paXEgakWYaKA15GTT49c9RovSuZ73iXD16ykEy\ndq3Y+w9kvgDU/9QQGDx19/vpMSCgUikL6KQuyLjilKOydgcXm4yetLwN6jhW6QEy\nmsOC4KyF38hKBmpxeqiEB7+2rpWAjm31QOyXhWn/N5sR8amTE2cj3ZwQYSaNcyZD\nnliMwcN4gJh89BB27WNQf2K5Umpl+5FY2BI4LeTlYPMkEtN54/Jx3KBNZZIsZhuj\nR5CmCioNAgMBAAECggEATDCYjgZ5M+lZT4PyiIsMmbUFcgAwevMLJMfe94rn6/X4\ne7IyOPtpK6NgAx8kVQLvlytQ09t9TGpjsFMy9FfWh+Y5nblsilNnppO+l33ul8LQ\ndioc4F2LcT5mpO7C3NqaIeeY4cW1Sp7T+pt6/e2mg13pTIPupmQGU6f257vlokKQ\nBeA3kTchcZ24YqUklZftYcl786QpSQp5CJJCMygJdQL5HH4g8nahHiNHQ5swHsUl\njsotVU/bFyTjwH0xooMuXVpj2Q36r+oqa8TYSSWsOgsnVyIW53h4jzCQh3KsaB62\ntcVmsMSvc3YWJTsDEucK7bfJFoPNc1lcjQ9d+RfWtwKBgQDQjj9exFTVXnz8v26v\n9GzlKZZw7wYj0op8VG8q/Z1gRlPCScBnhDW96TLWR5km7FvOEzuelXYbi2YhSsWt\n+aTziFPTiqkWTp1oMuKWaXRZAyGFvMuACbaKBYgMDFjsvo39GtjpsoIyntxLGw05\npPUMag249fy1VeyHXUJFTzE6AwKBgQDAmthdZbuhIDFlGeVi3l1LA9fUI8LUCrRM\nWJImhVl2wXClh70tSgDDAMUb5hWNAQX0Qmnci/mr1ZrWY4DeYS5QFAZFr18VftO6\nhKmPnBSnbUuokkS6ZBKSQvTtbYNP/pEBQ1VbUpSN5HlbWvmm9haSbLbW+eyHfb1/\nKTnBzPfWrwKBgExR8fDNKjpW9KhNqcTsTrliCbLUVcvgLVuoTnJOEzx7IAW2lZmM\nMVqJL1hpJSuwTTxRn3y+N1WHIt3GDidHd0zDs+FzGcOXC1VpYbAncTNtyOO3HkWB\nyHIj6hB2qEgix7U7EOwcrja2GenGQYW5zw829ESeiFcX1ZIH18ujWmFfAoGBAIeX\n+561EkS630tn0b+rAE7hY76rdmvFJW1iJXINCxC52k4Oo7YQlTyzfBDKCH3+LGzr\nnI9x09GPTbSE1KK6E9q4XjoM3onJgdGbt6usnDXKkisY3l3COfjSPpAwOvPEKd2T\nw7HJD2BdarpP79YFBZsMAiSSSlyQvymYolq3q/ttAoGBALEQCEB5WqNpxj2vjwVo\n/isrzF+K6Bt1MYcdGGeSQzZNg5PBdWS6sPNqnO7mnOqwSCbSc+OgpX9wf0dJHGFo\nFK4MEAcKf5HWd3fQL09r68dOAnbx9HICp1lLNNYE7CBwrQjlJYkIwvtXMkukm4b1\nBDs5oQBi7HOJw0MDzaw6RK0J\n-----END PRIVATE KEY-----\n",
-  "client_email": "firebase-adminsdk-4kyo0@myproject-talbeeri.iam.gserviceaccount.com",
-  "client_id": "111744450204966435212",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-4kyo0%40myproject-talbeeri.iam.gserviceaccount.com",
-  "universe_domain": "googleapis.com"
+firebase_key = 
+{
+
 }
 
 
